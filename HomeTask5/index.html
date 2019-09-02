@@ -9,17 +9,29 @@
 <form action="http://fe.it-academy.by/TestForm.php" method="POST">
   <fieldset>
     <legend>Please, insert your data</legend>
-    Name:<input type="text" name="user-name" value="your name"/><br/>
-    Insert password:<input type="password" name="password" value="12345678"/><br/>
-    Telephone:<input type="text" name="telephone" value="22334455"><br/>
+    Name:<input type="text"
+                name="user-name"
+                value="your name"
+                title="insert name"/><br/>
+    Insert password:<input type="password"
+                           name="password"
+                           value="12345678"
+                           title="insert password"/><br/>
+    Telephone:<input type="text"
+                     name="telephone"
+                     value="22334455"
+                     title="insert telephone"><br/>
     Do you have 18?<br/>
     Yes
     <input type="radio" checked name="age" value="yes"/>
     No
     <input type="radio" name="age" value="no"/><br/>
     Your comment of our work:
-    <textarea name="review" cols="20" rows="2"></textarea><br/>
-    <input type="reset">
+    <textarea name="review"
+              cols="20"
+              rows="2"
+              title="insert your comment">Message</textarea><br/>
+    <input type="reset" value="clear">
     <input type="submit" value="Send"/><br/>
   </fieldset>
 </form>
