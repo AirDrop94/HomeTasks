@@ -1,0 +1,23 @@
+body {
+    background-color: moccasin;
+}
+
+.block-one {
+    display: block;
+    position: center;
+    padding-left: 300px;
+}
+
+.block-two {
+    display: block;
+    position: center;
+    padding-left: 300px;
+}
+
+#poem1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#poem2 {
+    font-family: 'Cuprum';
+}
