@@ -6,6 +6,6 @@ legend{
 }
 fieldset{
     border: 3px solid cornflowerblue;
-    font-family: "Comic Sans MS";
+    font-family: monospace;
     color: chocolate;
 }
