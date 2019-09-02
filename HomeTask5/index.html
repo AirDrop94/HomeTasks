@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
+  <title>Order form sample</title>
+</head>
+<h2>Order form</h2>
+<form action="http://fe.it-academy.by/TestForm.php" method="POST">
+  <fieldset>
+    <legend>Please, insert your data</legend>
+    Name:<input type="text" name="user-name" value="your name"/><br/>
+    Insert password:<input type="password" name="password" value="12345678"/><br/>
+    Telephone:<input type="text" name="telephone" value="22334455"><br/>
+    Do you have 18?<br/>
+    Yes
+    <input type="radio" checked name="age" value="yes"/>
+    No
+    <input type="radio" name="age" value="no"/><br/>
+    Your comment of our work:
+    <textarea name="review" cols="20" rows="2"></textarea><br/>
+    <input type="reset">
+    <input type="submit" value="Send"/><br/>
+  </fieldset>
+</form>
+</body>
+</html>

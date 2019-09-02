@@ -1,0 +1,11 @@
+body{
+    background-color: navajowhite;
+}
+legend{
+    color: gray;
+}
+fieldset{
+    border: 3px solid cornflowerblue;
+    font-family: "Comic Sans MS";
+    color: chocolate;
+}
