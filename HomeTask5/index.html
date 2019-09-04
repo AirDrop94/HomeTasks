@@ -11,15 +11,20 @@
     <legend>Please, insert your data</legend>
     Name:<input type="text"
                 name="user-name"
-                value="your name"
-                title="insert name"/><br/>
+                placeholder="insert your name"
+                title="insert name"
+                required=""
+                pattern="[A-Za-z]{,12}"/><br/>
     Insert password:<input type="password"
                            name="password"
-                           value="12345678"
-                           title="insert password"/><br/>
+                           placeholder="insert password"
+                           title="insert password"
+                           required=""
+                           pattern="[A-Za-z]{7}"/><br/>
     Telephone:<input type="text"
                      name="telephone"
-                     value="22334455"
+                     placeholder="insert your phone number"
+                     required=""
                      title="insert telephone"><br/>
     Do you have 18?<br/>
     Yes
