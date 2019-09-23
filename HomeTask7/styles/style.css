@@ -1,5 +1,63 @@
-div{
-    width: 400px;
-    height: 200px;
-    background-color: black;
+body {
+    background-image: url("../image/background.png");
+}
+
+p {
+    text-align: justify;
+    color: saddlebrown;
+}
+
+div.text {
+    margin-right: 410px;
+}
+
+div.social {
+    display: block;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    width: 247px;
+    height: 100px;
+    overflow: hidden;
+}
+
+div.social:hover {
+    width: 247px;
+    height: 550px;
+    background-color: wheat;
+    opacity: 0.5;
+    transition: all 1s;
+
+}
+
+.image {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url("../image/social.jpg") 0 0 no-repeat;
+    margin: 10px 10px;
+}
+
+.facebook {
+    background-position: -29px -28px;
+}
+
+.whatsApp {
+    background-position: -148px -28px;
+}
+
+.youTube {
+    background-position: -267px -28px;
+}
+
+.googlePlus {
+    background-position: -387px -28px;
+}
+
+.skype {
+    background-position: -507px -28px;
+}
+
+.instagram {
+    background-position: -29px -148px;
 }
