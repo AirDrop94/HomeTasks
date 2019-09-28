@@ -16,7 +16,7 @@ h1 {
 
 main {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-image: url("../images/background.png");
 }
 
@@ -47,9 +47,14 @@ div.image img {
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-image: url("../images/footer.png");
 }
+
+footer p {
+    text-align: center;
+}
+
 @media (max-width: 800px) {
     main {
         height: 800px;
