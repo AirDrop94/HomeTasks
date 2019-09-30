@@ -55,11 +55,11 @@ a:hover {
 }
 
 /*Main content*/
-.text {
-    display: block;
+div.text {
     float: left;
-    padding-right: 10px;
-    width: 400px;
+    width: 50%;
+    border: 2px solid skyblue;
+    border-radius: 10px;
 }
 
 h2 {
@@ -72,14 +72,17 @@ h2 {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 295px;
+    height: 295px;
+    margin: auto;
 }
 
 
-div .images {
-    display: block;
+div.images {
     float: right;
+    width: 48%;
+    border: 2px solid skyblue;
+    border-radius: 10px;
 }
 
 /*footer block*/
@@ -92,4 +95,17 @@ footer {
 
 footer p {
     color: white;
+}
+
+/*mobile block*/
+
+@media (max-width: 740px) {
+    main {
+        height: 600px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
 }
